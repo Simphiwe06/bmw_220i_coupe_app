@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>{{ carDetails.model }}</h2>
+    <p><strong>Body style:</strong> {{ carDetails.bodyStyle }}</p>
+    <p><strong>Price:</strong></p>
+    <ul>
+      <li><strong>Per month:</strong> {{ carDetails.price.perMonth }}</li>
+      <li><strong>Offer price:</strong> {{ carDetails.price.offerPrice }}</li>
+    </ul>
+    <p><strong>Other specifications:</strong></p>
+    <ul>
+      <li><strong>Condition:</strong> {{ carDetails.otherSpecifications.condition }}</li>
+      <li><strong>Fuel type:</strong> {{ carDetails.otherSpecifications.fuelType }}</li>
+      <li><strong>Transmission:</strong> {{ carDetails.otherSpecifications.transmission }}</li>
+      <li><strong>Delivery time:</strong> {{ carDetails.otherSpecifications.deliveryTime }}</li>
+      <li><strong>0-100 km/h:</strong> {{ carDetails.otherSpecifications.acceleration }}</li>
+      <li><strong>Engine performance:</strong> {{ carDetails.otherSpecifications.enginePerformance }}</li>
+      <li><strong>Fuel consumption (combined):</strong> {{ carDetails.otherSpecifications.fuelConsumption }}</li>
+    </ul>
+  </div>
+  
